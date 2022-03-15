@@ -1,0 +1,108 @@
+body{
+	display:grid;
+	background-color:black;
+	grid-template-columns: 30% 20% 50%;/*length of 1st, 2nd and 3rd columns respectively*/
+	padding: 0px;
+    /*grid-gap: 10px;*/
+}
+
+#i3{
+	background-color: rgba(255, 255, 255, 0.75);/* The last parameter is for opacity, which goes from 0 to 1. (0 -> black and 1 -> white) */
+	/*border:1px solid black;*/
+	background-image:url("food2.jpg");
+ 	background-size: 100% 100%;
+	border:6px solid black;
+}
+
+#i4{
+	background-color: rgba(255, 255, 255, 0.75);/* The last parameter is for opacity, which goes from 0 to 1. (0 -> black and 1 -> white) */
+	/*border:1px solid black;*/
+	background-image:url("food3.jpg");
+ 	background-size: 100% 100%;
+	border:6px solid black;
+}
+
+#i1{
+	position:relative;
+	background-color: rgba(255, 255, 255, 0.75);
+	grid-column-start:1; /*start display from 1st column*/
+	grid-column-end:3; /*end display on the 3rd column*/
+	/* the above 2 statements mean that the space given to item with id "i1" will span 2 columns (in the first row.) */
+	background-image:url("food1.jpg");
+ 	background-size: 100% 100%; /* first value is width and the second one is height of the bg image.. 100 and 100 means that the containing space will be fully covered */
+	border:6px solid black;
+}
+
+#text1{
+	font-family: 'Pacifico', cursive;
+	position:absolute;
+	text-align:center;
+	width:70%;
+	margin-left:65%;
+	margin-top:7px;
+	font-size:44px;
+	font-weight:bold;
+	color: red;
+	background-color: lightyellow;
+	border: 5px solid black;
+	border-radius: 37px;
+	padding:14px;
+	text-shadow: 4px 4px 4px #aaa;
+	}
+
+#i2{
+	background-color: rgba(255, 255, 255, 0.75);
+	grid-column-start:3; /*start display from 3rd column*/
+	grid-column-end:4; /*end display on the 3rd column itself, meaning that the display of this item will span the entire 3rd column*/
+	grid-row-start:1; /*start display from 1st row*/
+	grid-row-end:3; /*end display on 3rd row, meaning that the display of this item will cover the 1st and 2nd rows.*/
+	/* the above 2 statements mean that the space given to item with id "i2" will span 1 column and 2 rows */
+	background-image:url("food4.jpg");
+ 	background-size: 100% 100%;
+	border:6px solid black;
+}
+
+#dialog{
+	position:absolute;
+	width:19%;
+	height:28%;
+	margin-top:29%;
+	margin-left:21%;
+	transform: rotate(28deg);
+}
+
+.selectPanel{
+	position:absolute;
+	margin-left:14px;
+	margin-top:84%;
+	width:190%;
+	height:30px;
+	border:5px solid red;
+	border-radius:30px;
+	background-color:#e4b0e4;
+	color:#980913;
+	padding-top:15px;
+	padding-bottom:10px;
+	padding-left:5px;
+}
+
+.gridPanel{
+	display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+	grid-template-rows: 30px;
+	grid-column-gap:15px;
+}
+
+.grid-item{
+    text-align: center;
+}
+	
+
+.material-icons.md-24:hover{
+	cursor:pointer;
+	font-size:24px;
+	transform: scale(1.6,1.6); /*first value: scale width by 1.6, second value: scale height by 1.6*/
+}
+
+
+	
