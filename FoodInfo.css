@@ -69,7 +69,7 @@ body{
 	    width:100%;
 	    background-image:url("food4.jpg");
  	    background-size: 100% 100%;
-	    border:6px solid black;
+	    background-repeat: no-repeat;
         }
 	#i2{}
 	#i1{}
