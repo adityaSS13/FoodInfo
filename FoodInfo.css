@@ -62,6 +62,20 @@ body{
 	border:6px solid black;
 }
 
+@media screen and (min-width: 480px){
+	#i2{
+	background-color: rgba(255, 255, 255, 0.75);
+	grid-column-start:1;
+	grid-column-end:4; 
+	grid-row-start:1; /*start display from 1st row*/
+	grid-row-end:3; /*end display on 3rd row, meaning that the display of this item will cover the 1st and 2nd rows.*/
+	/* the above 2 statements mean that the space given to item with id "i2" will span 1 column and 2 rows */
+	background-image:url("food4.jpg");
+ 	background-size: 100% 100%;
+	border:6px solid black;
+        }
+}
+
 #dialog{
 	position:absolute;
 	width:19%;
