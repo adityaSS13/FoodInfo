@@ -63,7 +63,11 @@ body{
 }
 
 @media screen and (max-width: 600px){
-	.body{
+	#i2{
+	    grid-column-start:1; /*start display from 3rd column*/
+	    grid-column-end:4; /*end display on the 3rd column itself, meaning that the display of this item will span the entire 3rd column*/
+	    grid-row-start:1; /*start display from 1st row*/
+	    grid-row-end:3;
 	    background-image:url("food4.jpg");
  	    background-size: 100% 100%;
 	    border:6px solid black;
