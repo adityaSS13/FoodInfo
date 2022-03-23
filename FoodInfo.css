@@ -62,7 +62,7 @@ body{
 	border:6px solid black;
 }
 
-@media screen and (min-width: 480px){
+@media screen and (max-width: 600px){
 	.body{
 	    background-image:url("food4.jpg");
  	    background-size: 100% 100%;
