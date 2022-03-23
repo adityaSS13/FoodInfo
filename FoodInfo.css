@@ -157,7 +157,7 @@ body{
 	.selectPanel{
 		position:fixed;
 		margin-top:55%;
-		width:57%;
+		width:77%;
 		height:27px;
 		border:5px solid red;
 		border-radius:30px;
@@ -172,7 +172,7 @@ body{
 		display: grid;
 		grid-template-columns: auto auto auto auto auto auto;
 		grid-template-rows: 30px;
-		grid-column-gap:9px;
+		grid-column-gap:13px;
 	}
 
 	.grid-item{
@@ -188,9 +188,9 @@ body{
 	
 	#dialog{
 		position:fixed;
-		width:24%;
+		width:28%;
 		height:28%;
-		margin-top:78%;
+		margin-top:86%;
 		margin-left:21%;
 		transform: rotate(28deg);
 	}
