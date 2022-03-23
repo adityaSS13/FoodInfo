@@ -109,12 +109,12 @@ body{
 @media screen and (max-width: 600px){
 	body{
 		position:fixed;
-	    height:100%;
-	    width:100%;
-	    background-image:url("food4.jpg");
- 	    background-attachment: fixed;  
-        background-size: cover;
-	    background-repeat: no-repeat;
+	        height:100%;
+	        width:100%;
+	        background-image:url("food4.jpg");
+ 	        background-attachment: fixed;  
+                background-size: 100% 100%;
+	        background-repeat: no-repeat;
         }
 	#i2{
 		width:0;
@@ -156,7 +156,7 @@ body{
 	
 	.selectPanel{
 		position:fixed;
-		margin-top:35%;
+		margin-top:55%;
 		width:47%;
 		height:27px;
 		border:5px solid red;
@@ -190,7 +190,7 @@ body{
 		position:fixed;
 		width:19%;
 		height:28%;
-		margin-top:61%;
+		margin-top:68%;
 		margin-left:21%;
 		transform: rotate(28deg);
 	}
